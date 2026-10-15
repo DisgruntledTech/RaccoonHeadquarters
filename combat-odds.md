@@ -1,3 +1,10 @@
+<div align="center">
+
+# Raccoon Fighting Odds Against Doglike Combatants
+
+</div>
+
+
 When a wild raccoon faces off against a wild dog (such as a coyote, feral dog, or jackal), the outcome depends heavily on **size, weight, and environment**.
 
 Raccoons are pound-for-pound exceptionally fierce, but wild canids have a distinct biological advantage if they outweight the raccoon.
