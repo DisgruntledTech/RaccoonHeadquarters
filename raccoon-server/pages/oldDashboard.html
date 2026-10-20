@@ -1,0 +1,116 @@
+<section class="welcome-page" aria-labelledby="welcome-title">
+	<style>
+		.welcome-page {
+			min-height: 100%;
+			box-sizing: border-box;
+			padding: clamp(2rem, 7vw, 6rem) clamp(1.25rem, 6vw, 6rem);
+			color: #1d2b22;
+			background: linear-gradient(135deg, #f4f1df 0%, #dcebd8 100%);
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+		}
+
+		.welcome-page__content {
+			max-width: 72rem;
+			margin: 0 auto;
+		}
+
+		.welcome-page__eyebrow {
+			margin: 0 0 1rem;
+			color: #416b4b;
+			font-size: .8rem;
+			font-weight: 800;
+			letter-spacing: .16em;
+			text-transform: uppercase;
+		}
+
+		.welcome-page h1 {
+			max-width: 48rem;
+			margin: 0;
+			font-size: clamp(2.75rem, 8vw, 6.5rem);
+			line-height: .98;
+			letter-spacing: -.06em;
+		}
+
+		.welcome-page__intro {
+			max-width: 38rem;
+			margin: 1.75rem 0 2.25rem;
+			color: #4b5d50;
+			font-size: clamp(1.05rem, 2vw, 1.35rem);
+			line-height: 1.6;
+		}
+
+		.welcome-page__actions {
+			display: flex;
+			flex-wrap: wrap;
+			gap: .9rem;
+		}
+
+		.welcome-page__button {
+			display: inline-block;
+			padding: .85rem 1.25rem;
+			border: 2px solid #254d31;
+			border-radius: 999px;
+			color: #fff;
+			background: #254d31;
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		.welcome-page__button--quiet {
+			color: #254d31;
+			background: transparent;
+		}
+
+		.welcome-page__features {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+			gap: 1rem;
+			margin-top: clamp(3rem, 8vw, 7rem);
+		}
+
+		.welcome-page__feature {
+			padding: 1.35rem;
+			border: 1px solid rgba(37, 77, 49, .18);
+			border-radius: 1rem;
+			background: rgba(255, 255, 255, .45);
+		}
+
+		.welcome-page__feature h2 {
+			margin: 0 0 .5rem;
+			font-size: 1.1rem;
+		}
+
+		.welcome-page__feature p {
+			margin: 0;
+			color: #4b5d50;
+			line-height: 1.5;
+		}
+	</style>
+
+	<div class="welcome-page__content">
+		<p class="welcome-page__eyebrow">Raccoon Headquarters</p>
+		<h1 id="welcome-title">Welcome to the headquarters.</h1>
+		<p class="welcome-page__intro">
+			A cozy command center for curious minds, clever ideas, and everything happening after dark.
+		</p>
+		<nav class="welcome-page__actions" aria-label="Welcome navigation">
+			<a class="welcome-page__button" href="#explore">Explore headquarters</a>
+			<a class="welcome-page__button welcome-page__button--quiet" href="#about">Meet the raccoons</a>
+		</nav>
+
+		<div class="welcome-page__features" id="explore">
+			<article class="welcome-page__feature">
+				<h2>Nightly operations</h2>
+				<p>Keep up with the latest missions from our resourceful crew.</p>
+			</article>
+			<article class="welcome-page__feature">
+				<h2>Field notes</h2>
+				<p>Discover stories, discoveries, and shiny things worth sharing.</p>
+			</article>
+			<article class="welcome-page__feature" id="about">
+				<h2>Our den</h2>
+				<p>Built for community, curiosity, and a little well-earned mischief.</p>
+			</article>
+		</div>
+	</div>
+</section>
